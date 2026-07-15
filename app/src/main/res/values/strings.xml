@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MC Launcher</string>
+    <string name="btn_play">PLAY</string>
+    <string name="status_idle">Siap untuk dimainkan</string>
+    <string name="status_downloading">Mengunduh berkas...</string>
+    <string name="status_launching">Menjalankan Minecraft...</string>
+</resources>
