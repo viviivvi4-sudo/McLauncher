@@ -56,10 +56,6 @@ android {
     }
 }
 
-repositories {
-    // Repo resmi Mojang untuk authlib, brigadier, datafixerupper, text2speech
-    maven { url "https://libraries.minecraft.net" }
-}
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
