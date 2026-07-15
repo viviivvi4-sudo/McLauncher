@@ -19,14 +19,10 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      # Kita pakai action setup-gradle resmi, jadi tidak perlu
-      # menyertakan file binary gradle-wrapper.jar di repo.
-      # Action ini otomatis mendownload & menjalankan Gradle yang benar.
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
-
-      - name: Grant execute permission (jaga-jaga jika gradlew ada)
-        run: chmod +x ./gradlew || true
+        with:
+          gradle-version: '8.0'
 
       - name: Build Debug APK
         run: gradle assembleDebug --stacktrace
