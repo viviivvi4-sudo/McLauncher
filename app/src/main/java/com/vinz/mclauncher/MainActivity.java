@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private final Handler mainHandler = new Handler(Looper.getMainLooper());
 
     // Ganti sesuai lokasi file kamu sendiri (JRE, assets, libraries, dsb).
-    private static final String JRE_URL = "https://example.com/path/to/jre.tar.gz";
+    private static final String JRE_URL = "https://github.com/PojavLauncherTeam/android-openjdk-build-multiarch/releases/download/jre17-ec28559/jre17-arm64-20210825-release.tar.xz";
     private static final String ASSETS_URL = "https://example.com/path/to/assets.tar.gz";
 
     @Override
